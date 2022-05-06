@@ -1,6 +1,8 @@
-# Simple .bashrc file that I will expand on
-
 source ~/.ps1Config
 
-alias myhome="cd /mnt/c/Users/Daniel"
-alias showexplorer="explorer.exe ."
+alias myhome="cd /mnt/c/Users/Danie"
+alias ufiles="explorer.exe ."
+
+# history size
+HISTSIZE=1000
+HISTFILESIZE=2000
